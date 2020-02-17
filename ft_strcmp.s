@@ -3,7 +3,7 @@ segment .text
 	extern _ft_strlen	; call ft_strlen
 
 _ft_strcmp:
-	mov 	rax, 0		; define rax to 0
+	mov 		rax, 0		; define rax to 0
 	jmp		compa		; call compa
 
 compa:
